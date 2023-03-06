@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F049E4529AFE26600C706A2 /* TodoChangesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F049E4429AFE26600C706A2 /* TodoChangesDelegate.swift */; };
 		3FC3A1D029AE948700F5BFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A1CF29AE948700F5BFC0 /* AppDelegate.swift */; };
 		3FC3A1D229AE948700F5BFC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A1D129AE948700F5BFC0 /* SceneDelegate.swift */; };
-		3FC3A1D429AE948700F5BFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A1D329AE948700F5BFC0 /* ViewController.swift */; };
+		3FC3A1D429AE948700F5BFC0 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A1D329AE948700F5BFC0 /* TodoListViewController.swift */; };
 		3FC3A1D729AE948700F5BFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3A1D529AE948700F5BFC0 /* Main.storyboard */; };
 		3FC3A1D929AE948900F5BFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3A1D829AE948900F5BFC0 /* Assets.xcassets */; };
 		3FC3A1DC29AE948900F5BFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3A1DA29AE948900F5BFC0 /* LaunchScreen.storyboard */; };
 		3FC3A1E729AE948900F5BFC0 /* todoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A1E629AE948900F5BFC0 /* todoAppTests.swift */; };
 		3FC3A1F129AE948900F5BFC0 /* todoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A1F029AE948900F5BFC0 /* todoAppUITests.swift */; };
 		3FC3A1F329AE948900F5BFC0 /* todoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A1F229AE948900F5BFC0 /* todoAppUITestsLaunchTests.swift */; };
+		3FC3A20129AE9D3300F5BFC0 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A20029AE9D3300F5BFC0 /* DoneViewController.swift */; };
+		3FC3A20429AE9F1300F5BFC0 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A20329AE9F1300F5BFC0 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F049E4429AFE26600C706A2 /* TodoChangesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoChangesDelegate.swift; sourceTree = "<group>"; };
 		3FC3A1CC29AE948700F5BFC0 /* todoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC3A1CF29AE948700F5BFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC3A1D129AE948700F5BFC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FC3A1D329AE948700F5BFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC3A1D329AE948700F5BFC0 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		3FC3A1D629AE948700F5BFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC3A1D829AE948900F5BFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC3A1DB29AE948900F5BFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		3FC3A1EC29AE948900F5BFC0 /* todoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC3A1F029AE948900F5BFC0 /* todoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITests.swift; sourceTree = "<group>"; };
 		3FC3A1F229AE948900F5BFC0 /* todoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FC3A20029AE9D3300F5BFC0 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		3FC3A20329AE9F1300F5BFC0 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F049E4329AFE23F00C706A2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3F049E4429AFE26600C706A2 /* TodoChangesDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		3FC3A1C329AE948700F5BFC0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +113,11 @@
 		3FC3A1CE29AE948700F5BFC0 /* todoApp */ = {
 			isa = PBXGroup;
 			children = (
+				3F049E4329AFE23F00C706A2 /* Protocols */,
+				3FC3A20229AE9F0500F5BFC0 /* OtherControllers */,
+				3FC3A1FF29AE9D2000F5BFC0 /* View Controllers */,
 				3FC3A1CF29AE948700F5BFC0 /* AppDelegate.swift */,
 				3FC3A1D129AE948700F5BFC0 /* SceneDelegate.swift */,
-				3FC3A1D329AE948700F5BFC0 /* ViewController.swift */,
 				3FC3A1D529AE948700F5BFC0 /* Main.storyboard */,
 				3FC3A1D829AE948900F5BFC0 /* Assets.xcassets */,
 				3FC3A1DA29AE948900F5BFC0 /* LaunchScreen.storyboard */,
@@ -125,6 +141,23 @@
 				3FC3A1F229AE948900F5BFC0 /* todoAppUITestsLaunchTests.swift */,
 			);
 			path = todoAppUITests;
+			sourceTree = "<group>";
+		};
+		3FC3A1FF29AE9D2000F5BFC0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3A1D329AE948700F5BFC0 /* TodoListViewController.swift */,
+				3FC3A20029AE9D3300F5BFC0 /* DoneViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3FC3A20229AE9F0500F5BFC0 /* OtherControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3A20329AE9F1300F5BFC0 /* CustomTabBarController.swift */,
+			);
+			path = OtherControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC3A1D429AE948700F5BFC0 /* ViewController.swift in Sources */,
+				3F049E4529AFE26600C706A2 /* TodoChangesDelegate.swift in Sources */,
+				3FC3A20129AE9D3300F5BFC0 /* DoneViewController.swift in Sources */,
+				3FC3A1D429AE948700F5BFC0 /* TodoListViewController.swift in Sources */,
+				3FC3A20429AE9F1300F5BFC0 /* CustomTabBarController.swift in Sources */,
 				3FC3A1D029AE948700F5BFC0 /* AppDelegate.swift in Sources */,
 				3FC3A1D229AE948700F5BFC0 /* SceneDelegate.swift in Sources */,
 			);
@@ -445,6 +481,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +510,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
